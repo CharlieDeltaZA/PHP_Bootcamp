@@ -86,8 +86,23 @@ body {
 #mid_img {
 	width: 1020px;
 	height: 620px;
-	/* position: relative; */
 	margin-top: 15px;
+}
+
+#mac {
+	width: 205px;
+	height: 200px;
+	margin-top: 355px;
+	margin-left: 815px;
+	position: absolute;
+}
+
+#chair {
+	width: 160px;
+	height: 250px;
+	margin-top: 370px;
+	margin-left: 328px;
+	position: absolute;
 }
 
 .buttons {
@@ -114,4 +129,100 @@ body {
 	height: 360px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#fix2 {
+	width: 80px;
+	height: 210px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#towel {
+	height: 60px;
+	width: 80px;
+}
+
+#book {
+	height: 120px;
+	width: 80px;
+}
+
+#wall {
+	height: 70px;
+	width: 121px;
+	background-image: url(resources/brick.jpg);
+	background-repeat: repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#green_menu {
+	float: left;
+	clear: left;
+	width: 520px;
+	height: 170px;
+	margin-left: -75px;
+	margin-top: 580px;
+	position: absolute;
+	background: #90ff90;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px;
+	text-align: left;
+}
+
+#big_text {
+	font-size: 32px;
+	font-family: Georgia, serif;
+	font-weight: lighter;
+}
+
+#spooky {
+	text-shadow: 5px 5px 5px red;
+}
+
+#p1 {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#p2 {
+	font-style: italic;
+	margin-top: -17px;
+	margin-left: 9px;
+}
+
+#my_form {
+	margin-top: -17px;
+	padding: 0;
+}
+
+p {
+	font-family: sans-serif;
+	letter-spacing: 0.65px;
+	text-align: left;
+	font-size: 17px;
+}
+
+#input {
+	width: 380px;
+	height: 14px;
+	margin-top: -60px;
+	margin-left: 15px;
+	margin-top: 3px;
+	border: 2px solid;
+	border-color: #9d969d #eeeeee #eeeeee #9d969d;
+  }
+
+#submit {
+	width: 80px;
+	height: 20px;
+	margin-left: 4px;
+	margin-bottom: 0;
+	border-radius: 1px;
+	text-align: center;
+	font-size: 13px;
+	letter-spacing: 0.25px;
+	background: linear-gradient(#f0f0f0, #dcdcdc);
+	border: solid #9d969d 1px;
 }
