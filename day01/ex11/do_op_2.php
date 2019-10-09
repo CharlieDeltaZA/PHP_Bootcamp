@@ -6,9 +6,8 @@
 		exit(1);
 	}
 
-	$info = preg_match("/\s*([0-9]+)\s*([+,-,\*,\/,%])\s*([0-9]+)\s*/", $argv[1], $store);
+	preg_match("/\s*([0-9]+)\s*([+,-,\*,\/,%])\s*([0-9]+)\s*/", $argv[1], $store);
 	var_dump($store);
-	// var_dump($info);
 	$num1 = trim($store[1]);
 	$num2 = trim($store[3]);
 	$op = trim($store[2]);
