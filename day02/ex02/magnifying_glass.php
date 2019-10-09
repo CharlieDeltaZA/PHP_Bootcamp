@@ -4,9 +4,6 @@
 	if ($argc !== 2)
 		return ;
 
-		// title="([a-zA-Z ]+)"
-		// <a.+>([a-zA-Z ]+)<
-
 	$file = $argv[1];
 	$content = file_get_contents($file);
 	$ret = explode("\n", $content);
