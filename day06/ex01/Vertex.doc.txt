@@ -1,3 +1,25 @@
 <- Vertex ----------------------------------------------------------------------
-Your documentation here.
+
+The Vertex class handles vertex co-ordinates.
+
+Attributes (private):
+	x - Mandatory
+	y - Mandatory
+	z - Mandatory
+	w - Optional, defaults to 1.0
+	color - Optional, an instance of the Color class. If no color is provided,
+			it defaults	to RGB(255,255,255)
+
+Methods:
+	getX - gets the x co-ordinate.
+    setX - sets the x co-ordinate.
+    getY - gets the y co-ordinate.
+    setY - sets the y co-ordinate.
+    getZ - gets the z co-ordinate.
+    setZ - sets the z co-ordinate.
+    getW - gets the w co-ordinate.
+    setW - sets the w co-ordinate.
+    getColor - gets the RGB information from the color class.
+    setColor - sets the RGB information in the color class.
+
 ---------------------------------------------------------------------- Vertex ->
