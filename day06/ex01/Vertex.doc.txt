@@ -1,6 +1,5 @@
 <- Vertex ----------------------------------------------------------------------
-
-The Vertex class handles vertex co-ordinates.
+The Vertex class handles and stores vertex co-ordinates.
 
 Attributes (private):
 	x - Mandatory
@@ -21,5 +20,4 @@ Methods:
     setW - sets the w co-ordinate.
     getColor - gets the RGB information from the color class.
     setColor - sets the RGB information in the color class.
-
 ---------------------------------------------------------------------- Vertex ->
