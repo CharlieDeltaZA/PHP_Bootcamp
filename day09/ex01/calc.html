@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Calculator
+		</title>
+		<h1 style="text-align: center;">Calculator</h1>
+	</head>
+	<body onload="plz()">
+		<div id="container" style="text-align: center; padding-top: 50px;">
+			<input type="text" name="Number1" id="Number1">
+			<select name="Operator" id="operator">
+				<option value="Plus">+</option>
+				<option value="Minus">-</option>
+				<option value="Mult">*</option>
+				<option value="Div">/</option>
+				<option value="Mod">%</option>
+			</select>
+			<input type="text" name="Number2" id="Number2">
+			<input type="submit" name="Try me!" value="Try me!" onclick="calc()">
+		</div>
+	</body>
+		<script>
+			function calc()
+			{
+				var num1 = document.getElementById("Number1").value;
+				var num2 = document.getElementById("Number2").value;
+				var res;
+				if (!num1 || !num2)
+				{
+					alert("Error :(");
+					return ;
+				}
+				num1 = parseInt(num1);
+				num2 = parseInt(num2);
+				if (num1 < 0 || num2 < 0)
+				{
+					alert("Error :(");
+					return ;
+				}
+				else
+				{
+					var operation = document.getElementById("operator").value;
+					console.log(operation);
+				}
+				switch(operation) {
+					case("Plus"):
+						res = num1 + num2;
+						alert(res);
+						console.log("Result: " + res);
+						break ;
+					case("Minus"):
+						res = num1 - num2;
+						alert(res);
+						console.log("Result: " + res);
+						break ;
+					case("Mult"):
+						res = num1 * num2;
+						alert(res);
+						console.log("Result: " + res);
+						break ;
+					case("Div"):
+						if (num2 == 0)
+						{
+							alert("It's over 9000!");
+							return ;
+						}
+						res = num1 / num2;
+						alert(res);
+						console.log("Result: " + res);
+						break ;
+					case("Mod"):
+						if (num2 == 0)
+						{
+							alert("It's over 9000!");
+							return ;
+						}
+						res = num1 % num2;
+						alert(res);
+						console.log("Result: " + res);
+						break ;
+				}
+			}
+			function alert_user() {
+				alert("Please, use me...");
+				return ;
+			}
+			function plz() {
+				setInterval(alert_user, 30000);
+			}
+		</script>
+</html>
