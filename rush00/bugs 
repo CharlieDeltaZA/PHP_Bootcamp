@@ -1,0 +1,28 @@
+just for dun to vent my failures
+
+
+spent an hour figuring out that i cant spell multi in enctype="multipart/form-data
+forgot a ' in a height style which just deleted the rest of my output
+dont have time so im copy pasting functions instead of dynamically changing the sql but mehhh
+an hour trying to find why my sql statement was wrong when it turns out you have to fill in all fields
+30  min why wrong result from sql. forgot brackets at end of function so it was just the function name
+30 min that images passed through post are recieved as files not post
+10 min cant spell query
+have i mentined my extreme dislike for sql statements?
+WTFFFFFFFF my _ in my sqli queries are randomly turning into +??????
+20 minutes find a random ) in my sql statement
+2 hour and 3 second years cause i was missing i in mysqli_query
+
+
+image deletes when you update any other field in account
+editing products deletes their titles and images
+content box doesnt scale with height
+validating customer info?
+validate input
+
+mandatory:
+modify users
+modity client orders
+change quantity before adding to basket
+
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch

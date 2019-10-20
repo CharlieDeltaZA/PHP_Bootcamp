@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {background-image: url("/PHP-Bootcamp/rush00/imgs/dirt.jpg");}
+
+
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.header_wrapper{
+    width: 992px;
+    height: 100px;
+    margin: auto;
+    border-width: 4px;
+    border-style: solid;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/head.png");
+
+}
+
+.menubar {
+    width: 1000px;
+    height: 50px;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/ob.jpg");
+    border-style: solid;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    float: left;
+}
+
+#form {
+    float: right;
+    padding-right: 8px;
+    line-height: 50px;
+}
+
+#menu li {
+    list-style: none;
+    display: inline;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #F6FFFF;
+    padding: 4px;
+    margin: 2px;
+    font-size: 14px;
+    font-family: 'MinecrafterAltRegular';
+}
+
+#menu a:hover {
+    color: green;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#cloth {
+    width: 20px;
+    height: 20px;
+}
+
+#logo {
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 390px;
+    height: 60px;
+    float: left;
+}
+
+#logos {
+    margin-right: 40px;
+    width: 490px;
+    height: 200px;
+    float: right;
+}
+
+#banner {
+    float: right;
+}
+
+.content_wraper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: green;
+}
+
+#content_area {
+    width: 800px;
+    height: 800px;
+    float: right;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/snow.jpg");
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sidebar {
+    width: 200px;
+    height: 800px;
+    float: left;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/coal.jpg");
+    background-size: contain;
+    font-family: 'MinecrafterAltRegular';
+}
+
+#sidebar_title {
+    background-image: url("/PHP-Bootcamp/rush00/imgs/snow.jpg");
+    background-size: contain;
+    font-size: 22px;
+    color: black;
+    font-family: 'MinecraftiaRegular';
+    padding: 10px;
+    text-align: center;
+}
+
+#cats {
+    text-align: center;
+}
+
+#cats li {list-style: none; margin: 5px;}
+
+#cats a {color: white; margin: 5px;  text-align: center; font-size: 20px; text-decoration: none; font-family: 'Courier New', Courier, monospace;}
+
+#cats a:hover{color: green; font-weight: bolder; text-decoration: underline;}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/stone.jpg");
+    clear: both;
+    border-color: black;
+    border-width: 2px;
+}
+
+#products_box {
+    width: 800px;
+    text-align: center;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-bottom: 10px; */
+    /* background-color: #EAEAEA; */
+}
+
+#products_box img {
+    background-color: white;
+}
+
+#single_product {
+    float: left;
+    /* margin-left: 20px; */
+    padding: 25px;
+}
+
+#single_product img {
+    border: 2px solid black;
+    /* background-color: white; */
+}
+
+#products {
+    width: 180px;
+    height: 180px;
+    /* background-color: #EAEAEA; */
+}
+
+#shopping_cart {
+    width: 800px;
+    height: 54px;
+    background-image: url("/PHP-Bootcamp/rush00/imgs/coal2.jpg");
+    background-size: contain;
+    color: white;
+}
+
+#whyben {
+    width: 400px; 
+    height: 300px;
+}
+
+#textbar {
+    float: left; 
+    font-size: 13px; 
+    padding: 1px; 
+    line-height: 40px; 
+    color: white;
+}
+
+#carty {
+    float: center;
+    width: 700px;
+    background-color: #F6F6F6;
+}

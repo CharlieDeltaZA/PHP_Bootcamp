@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    background-image: url("/PHP-Bootcamp/rush00/imgs/dirt.jpg");
+    font-family: 'MinecraftiaRegular';
+}
+
+.main_wrapper{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* #header {
+    width: 1000px;
+    height: 120px;
+    background: red;
+	border-bottom: 5px groove orange;
+} */
+	
+.header_wrapper {
+	width: 992px;
+	height: 100px;
+	margin: auto;
+	border-width: 4px;
+	border-style: solid;
+	background-image: url("/PHP-Bootcamp/rush00/imgs/head.png");
+}
+
+#logo {
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 390px;
+    height: 60px;
+    float: left;
+}
+
+#logos {
+    margin-right: 40px;
+    width: 490px;
+    height: 200px;
+    float: right;
+}
+
+#logged {
+	width: 800px;
+	height: 200px;
+	background-color: white;
+}
+
+#logged p {
+	margin-left: 30px;
+}
+
+#left {
+    width: 800px;
+    height: 600px;
+    /* background: grey; */
+    float: left
+}
+
+#right {
+    width: 200px;
+    height: 430px;
+    background: #909090;
+	float: right;
+	background-image: url(../../imgs/stone.jpg);
+	background-size: 50px 50px;
+	background-repeat: repeat;
+}
+
+#right a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 18p;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+    margin: 6px;
+    display: block;
+}
+
+#right a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    color: red;
+}
+
+#order_list td {
+    vertical-align: middle;
+}
+
+#order_list th {
+    vertical-align: middle;
+}
+
+#prod_list td {
+    vertical-align: middle;
+}
+
+#prod_list {
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#cust_list td {
+	vertical-align: middle;
+}
+
+#new_prod {
+	vertical-align: top;
+	font-size: 14px;
+}
