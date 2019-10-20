@@ -9,8 +9,8 @@
         $contents = unserialize(file_get_contents('../private/passwd'));
         if ($contents) {
             $check = 0;
-            foreach ($contents as $current => $me) {
-                if ($me['login'] === $_POST['login'])
+            foreach ($contents as $current => $user) {
+                if ($user['login'] === $_POST['login'])
                     $check = 1;
             }
         }
